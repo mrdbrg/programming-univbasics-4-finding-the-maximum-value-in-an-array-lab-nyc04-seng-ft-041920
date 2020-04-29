@@ -2,6 +2,7 @@ def find_max_value(array)
   count = 0
   
   while count < array.size do
+    ifarray[count] > array[count+1]
     if array[count] > array[count+1]
       maxVal = array[count]
     end
