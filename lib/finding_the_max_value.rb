@@ -11,7 +11,7 @@ def find_max_value(array)
   
 end
 
-find_max_value([5,4,3,2,1])
+find_max_value([5,4,3,6,2,1])
 
 
 # [5,4,3,2,1]
