@@ -1,15 +1,17 @@
+
 def find_max_value(array)
   count = 0
+  maxVal = array[count + 1]
   
-  maxVal = array[count]
-  while count < array.size do
-    if maxVal < array[count + 1]
-      maxVal = array[count + 1]
+  while count < array.length do
+    if maxVal < array[count]
+      maxVal = array[count]
     end
     count+=1
   end
-  
+  return maxVal
 end
+
 
 find_max_value([5,4,3,6,2,1])
 
